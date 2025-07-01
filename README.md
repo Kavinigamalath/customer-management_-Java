@@ -69,7 +69,6 @@ A c web application for managing customer information with CRUD operations, buil
 
 The application uses the following MySQL table structure:
 
-```sql
 CREATE TABLE `customer` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
@@ -80,6 +79,24 @@ CREATE TABLE `customer` (
   `sex` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+##  Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+
+##  License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+##  Contact
+
+- Email: kavinigamalathofficial@gmail.com
+- GitHub: [@Kavinigamalath](https://github.com/Kavinigamalath)
+- LinkedIn: [Kavini Gamalath](https://www.linkedin.com/in/kavinigamalath/)
+
+---
+
+ Feel free to star this repository if you find it useful!
 
 
 
