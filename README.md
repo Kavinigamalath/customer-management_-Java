@@ -65,21 +65,6 @@ A c web application for managing customer information with CRUD operations, buil
 - MySQL Server 8.0+
 - Maven 3.6+
 
-## Database Schema
-
-The application uses the following MySQL table structure:
-
-CREATE TABLE `customer` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) NOT NULL,
-  `uname` varchar(50) NOT NULL,
-  `password` varchar(100) NOT NULL,
-  `phone` varchar(15) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `sex` varchar(10) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
 ##  Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
