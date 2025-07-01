@@ -55,6 +55,15 @@ A c web application for managing customer information with CRUD operations, buil
 - **Tools**:
   - Maven for dependency management
   - Tomcat 9.0+ as servlet container
+    
+## Installation
+
+### Prerequisites
+
+- Java JDK 17+
+- Apache Tomcat 9.0+
+- MySQL Server 8.0+
+- Maven 3.6+
 
 ## Database Schema
 
@@ -72,12 +81,5 @@ CREATE TABLE `customer` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-## Installation
 
-### Prerequisites
-
-- Java JDK 17+
-- Apache Tomcat 9.0+
-- MySQL Server 8.0+
-- Maven 3.6+
 
